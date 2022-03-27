@@ -26,3 +26,7 @@ yargs.command(
 
 yargs.parse()
 
+if(yargs.argv._.length == 0)
+{
+  console.log("No operation selected! Please type node index --help to check the valid operations.");
+}
