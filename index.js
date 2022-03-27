@@ -14,7 +14,13 @@ yargs.command(
     }
   },
   (argv) => {
-    sumOfGivenNumbers(argv.numbers)
+    try {
+      const value = sumOfGivenNumbers(argv.numbers)
+      console.log(value);
+    } catch (error) {
+      console.log(error.message)
+    }
+    
   }
 ).example("node $0 add --numbers='1;2;3'");
 
