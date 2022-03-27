@@ -1,0 +1,28 @@
+{
+  "name": "string-calculator-with-node",
+  "version": "1.0.0",
+  "description": "Node with TTD",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chepurisunil3/string-calculator-with-node.git"
+  },
+  "author": "Sunil",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chepurisunil3/string-calculator-with-node/issues"
+  },
+  "homepage": "https://github.com/chepurisunil3/string-calculator-with-node#readme",
+  "devDependencies": {
+    "jest": "^27.5.1",
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "boxen": "^6.2.1",
+    "chalk": "^5.0.1",
+    "yargs": "^17.4.0"
+  }
+}
