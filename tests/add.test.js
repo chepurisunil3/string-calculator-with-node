@@ -5,7 +5,7 @@ describe('Tests for Sum of given numbers', () => {
     expect(sumOfGivenNumbers("")).toBe(0) // if the string is empty return sum as 0
   })
   test('Check for NAN', () => {
-    expect(sumOfGivenNumbers("abc")).toThrow('Invalid input')
+    expect(sumOfGivenNumbers("8;abc")).toThrow('Invalid inputs given - abc')
   })
   test('Check for single number', () => {
     expect(sumOfGivenNumbers("2")).toBe(2) // for the single number input, return the same value as sum
